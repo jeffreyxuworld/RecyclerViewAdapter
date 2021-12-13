@@ -1,6 +1,6 @@
-package com.worldtech.indexlistdemo.model;
+package com.worldtech.indexlistdemo.model
 
-public class BaseModel {
-    public int code;
-    public String msg;
+open class BaseModel {
+    var code = 0
+    var msg: String? = null
 }

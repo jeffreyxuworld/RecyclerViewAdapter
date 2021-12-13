@@ -43,6 +43,7 @@ public class IndexDataAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
         this.bannersBeans = dataBeanX.banners;
         this.recmdsBeans = dataBeanX.recmds;
         this.novelLibraryBeans = dataBeanX.novel_librarys;
+        notifyDataSetChanged();
     }
 
     @Override
