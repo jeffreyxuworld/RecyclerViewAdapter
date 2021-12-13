@@ -1,4 +1,4 @@
-# IndexListDemo
+# RecyclerViewAdapter
 [![Platform Android](https://img.shields.io/badge/platform-Android-brightgreen)](https://developer.android.com/)
 
 #怎么对稍微复杂点的RecyclerView.Adapter的开发
