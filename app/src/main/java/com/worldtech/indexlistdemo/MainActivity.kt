@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
 
         val gson = Gson()
         val model: IndexDataModel = gson.fromJson(jsonData, IndexDataModel::class.java)
-        indexDataAdapter!!.updateShowTypeData(model.data)
+        model.data?.let { indexDataAdapter!!.updateShowTypeData(it) }
     }
 
     private fun demo2(){
